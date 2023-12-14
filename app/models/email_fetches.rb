@@ -73,6 +73,7 @@ module EmailFetches
   def build_redmine_options
     ### Issue attributes control options:
     # project=PROJECT          identifier of the target project
+    # project_from_subaddress=ADDR     select project from subaddress of ADDR found
     # status=STATUS            name of the target status
     # tracker=TRACKER          name of the target tracker
     # category=CATEGORY        name of the target category
@@ -94,6 +95,7 @@ module EmailFetches
                         tracker: tracker.name,
                         category: category,
                         priority: priority,
+                        project_from_subaddress: project_from_subaddress,
                         allow_override: nil,
 
                         unknown_user: unknown_user,

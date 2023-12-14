@@ -34,6 +34,7 @@ en:
   field_allow_override: 'allow_override options'
   field_flg_active: 'Is configuration active?'
   field_last_fetch_at: 'Last successfully fetch at'
+  field_project_from_subaddress: 'Project name from address tag'
 
   header_config_type: 'Config. Type'
   header_host: 'Host'
@@ -64,5 +65,6 @@ en:
   choice_true: 'True'
   choice_false: 'False'
   choice_accept: 'Accept'
-  
-  
+  choice_create: 'Create'
+  choice_ignore: 'Ignore'
+

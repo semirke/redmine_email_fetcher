@@ -71,6 +71,8 @@
 
         <p><%= f.text_field :category, size: 80, label: l(:field_category) %> </p>
 
+        <p><%= f.text_field :project_from_subaddress, size: 80, label: l(:field_project_from_subaddress) %> </p>
+
         <p><%= f.select :priority, IssuePriority.order(:name), include_blank: true, required: false,
                         label: l(:field_priority), selected: @email_configuration.priority %> </p>
 

@@ -134,7 +134,7 @@ class EmailConfigurationsController < ApplicationController
                   :move_on_failure, :move_on_success, :delete_unprocessed, :apop,
                   :unknown_user, :no_account_notice, :no_permission_check, :default_group,
                   :project_id, :tracker_id, :category, :priority,
-                  :allow_override,
+                  :allow_override, :project_from_subaddress,
                   :last_fetch_at, :flg_active)
     end
 
